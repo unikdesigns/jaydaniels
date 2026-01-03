@@ -1,0 +1,317 @@
+@media (max-width: 900px) {
+  .hero {
+    background-position: center;
+    padding: 80px 5vw;
+  }
+
+  .hero-overlay {
+    background: rgba(255,255,255,0.85);
+  }
+
+  .hero-content {
+    text-align: left;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .grid-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .card-right {
+    padding: 40px;
+  }
+
+  .quote-mark {
+    left: 20px;
+    font-size: 90px;
+  }
+
+  #resume .port2 {
+    font-size: 32px;
+  }
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+
+
+
+
+
+
+/* Tablet and below */
+@media (max-width: 991px) {
+  .faq-container {
+    grid-template-columns: 1fr; /* stack */
+    gap: 40px;
+  }
+
+  .faq-header {
+    text-align: center;
+  }
+
+  .faq-header h2 {
+    font-size: 34px;
+  }
+
+  .faq-header p {
+    margin: 0 auto;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .faq-section {
+    padding: 70px 20px;
+  }
+
+  .faq-header h2 {
+    font-size: 28px;
+  }
+
+  .faq-header p {
+    font-size: 15px;
+  }
+
+  .faq-accordion {
+    padding: 20px;
+  }
+
+  .faq-question {
+    font-size: 15px;
+    gap: 12px;
+  }
+
+  .faq-question .icon {
+    min-width: 42px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  .faq-answer p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  .faq-item {
+    padding: 4px 0;
+  }
+}
+
+
+
+
+@media (max-width: 991px) {
+  .cta-hero {
+    flex-direction: column;
+    padding: 80px 6%;
+  }
+
+  .cta-image img {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    max-width: 260px;
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .cta-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-image img {
+    bottom: -40px;
+    max-width: 260px;
+  }
+}
+
+
+
+
+/* FORCE SAME ON MOBILE */
+@media (max-width: 768px) {
+  .btn-outline {
+    flex-direction: row;         /* ⬅ prevents stacking */
+  }
+}
+
+
+
+
+/* MOBILE SAFETY */
+@media (max-width: 768px) {
+  .contact-item {
+    flex-direction: row;
+  }
+}
+
+
+
+/* Hide the email on mobile */
+@media (max-width: 768px) {
+  .top-left span:nth-child(2) { /* targets the email span */
+    display: none;
+  }
+}
+
+
+
+
+  /* responsive adjustments */
+    @media (max-width: 768px){
+      .quote-mark{ display:none; }
+      .card-left, .card-right { min-height: auto; }
+    }
+
+    @media (min-width: 992px){
+      .grid-layout { display:grid; grid-template-columns: 380px 1fr; gap:28px; align-items: start; }
+    }
+
+    /* subtle focus rings */
+    .nav-btn:focus { outline: 3px solid rgba(59,130,246,0.12); }
+
+
+
+
+
+
+    @media (max-width: 768px) {
+  #resume .port2 {
+    margin-left: 0;        /* remove the push */
+    text-align: center;    /* center text */
+  }
+
+  #resume .section-title {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .heart-mask {
+    width: 100%;
+    max-width: 320px; /* controls mobile size */
+    margin: 0 auto;
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  .mission-container {
+    grid-template-columns: 1fr;
+    justify-items: center; /* centers image + content equally */
+  }
+
+  .mission-content {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .download-btn {
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+  /* Form wrapper */
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Input centered */
+  .email-input {
+    width: 90%;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Button centered */
+  .subscribe-btn {
+    margin: 12px auto 0;   /* overrides margin-left */
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .subscribe-wrapper {
+    max-width: 100%;
+  }
+
+  .email-input {
+    padding-left: 16px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .subscribe-btn {
+    position: relative;
+    top: -6px;
+  }
+}
+
+
+/* footer bottom */
+
+/* Mobile fine-tuning */
+@media (max-width: 480px) {
+  .footer-bottom {
+    font-size: 13px;
+  }
+}
